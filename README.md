@@ -76,10 +76,15 @@ Create the necessary components
   
 
 Finally, let's create our landing page. The links to the necessary image assets can be found below
+
 icon1 - https://imgur.com/H2L3ohY.png
+
 icon2 - https://imgur.com/IHW1mFB.png
+
 icon3 - https://imgur.com/LtUDB9y.png
+
 icon4 - https://imgur.com/agN6R4Y.png
+
 react-logo - Added in this repo as an svg 
   
 
