@@ -1,0 +1,38 @@
+*{
+  margin:0;
+  padding:0;
+  font-family: sans-serif;
+}
+.landing_page{
+  height:100vh;
+  background-color: rgb(40, 40, 40);
+  padding-top:90px;
+  padding-left: 50px;
+}
+.landing_page h1{
+  color:white;
+  width:40%;
+  font-size:80px;
+}
+.landing_page p{
+  color:grey;
+  font-size: 26px;
+  width:25%;
+  margin:10px 0;
+}
+.landing_page button{
+  padding:20px;
+  background-color: white;
+  margin-top: 30px;
+  font-size: 25px;
+  font-weight: 600;
+}
+.content{
+  padding:50px 20px;
+  width:100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+.content > div{
+  width:200px;
+}
