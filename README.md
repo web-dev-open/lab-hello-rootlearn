@@ -22,7 +22,7 @@ We just learned the basics about creating a **Hello World** app in React, so we 
 
 - Don't Fork this repo
 
-- Don't Clone this repo
+- Don't Clone this repo 
 
   
 
