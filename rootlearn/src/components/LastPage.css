@@ -1,0 +1,18 @@
+.lastpage {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+
+    margin-left: 40px;
+}
+
+.secondpage {
+    /* margin: 20px 10px; */
+    /* height: 100px;
+    width: auto; */
+
+    margin-top: 60px;
+    margin-bottom: 60px;
+    margin-left: 10px;
+    margin-right: 10px
+}
