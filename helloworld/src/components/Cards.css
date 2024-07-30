@@ -1,0 +1,35 @@
+.cards-container {
+    display: flex;
+    justify-content: space-between; /* Space between cards */
+    flex-wrap: wrap; /* Wrap cards to next line if needed */
+    padding: 20px; /* Add some padding around the container */
+  }
+  
+  .card {
+    background-color: #fff; /* Card background color */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow for card */
+    width: 22%; /* Width of each card */
+    text-align: center; /* Center align text */
+    margin-bottom: 20px; /* Space below each card */
+    overflow: hidden; /* Ensure content stays within card bounds */
+  }
+  
+  .card-header {
+    background-color: black; /* Light background for the heading */
+    padding: 10px;
+    font-size: 1.2rem; /* Font size for the heading */
+    font-weight: bold; /* Bold font for the heading */
+    border-bottom: 1px solid #ddd; /* Border below the heading */
+  }
+  
+  .card-image {
+    width: 100%; /* Make the image cover the card width */
+  }
+  
+  .card-text {
+    padding: 10px;
+    font-size: 1rem; /* Font size for text */
+    color: #333; /* Text color */
+  }
+  
