@@ -1,0 +1,108 @@
+.App {
+  text-align: center;
+}
+
+.black {
+  background-color: #212635;
+  color: white;
+  display: flex;
+  justify-content: space-evenly;
+  height: 75vh;
+  text-align: left;
+  position: relative;
+}
+
+.text {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  margin-left: 50px;
+  margin-top: 30px;
+}
+
+.text h1 {
+  font-size: 3.5rem;
+  line-height: 1.1;
+  letter-spacing: 1.2;
+  /* opacity: 0.9; */
+}
+
+.text p {
+  margin-top: -20px;
+  opacity: 0.8;
+  font-size: 1.1rem;
+  margin-bottom: 2rem;
+  width: 30%;
+}
+
+.text button {
+  width: 130px;
+  height: 45px;
+  font-size: 1rem;
+  font-weight: 600;
+  border-radius: 6px;
+  border: none;
+}
+
+.image {
+  position: relative;
+  width: 50%;
+}
+
+.logo1 {
+  position: absolute;
+  top: -75px;
+  left: -20%;
+  width: 240px;
+}
+
+.logo2 {
+  position: absolute;
+  width: 180px;
+  top: 90px;
+  left: 25%;
+}
+
+.logo3 {
+  position: absolute;
+  bottom: -60px;
+  left: -25%;
+  width: 200px;
+}
+
+.white {
+  display: flex;
+  flex-direction: row;
+  margin-top: 3rem;
+  margin-left: 3rem;
+  margin-right: 1rem;
+  gap: 2rem;
+  text-align: left;
+  width: 100%;
+  justify-content: space-evenly;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 13rem;
+}
+
+.icon {
+  width: 100px;
+}
+
+.card-heading {
+  font-size: 1.4rem;
+  color: #212635;
+  margin: 2px;
+
+}
+
+.card-desc {
+  font-size: 1rem;
+  margin-top: 0;
+  width: 80%;
+  opacity: 0.8;
+}
