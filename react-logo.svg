@@ -1,9 +1,72 @@
-<?xml version="1.0" encoding="UTF-8"?>
+import ReactDOM from "react-dom/client";
+import "./index.css";
+import App from "./App";<?xml version="1.0" encoding="UTF-8"?>
 <svg width="310px" height="272px" viewBox="0 0 310 272" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: Sketch 51.1 (57501) - http://www.bohemiancoding.com/sketch -->
     <title>react copy 5</title>
     <desc>Created with Sketch.</desc>
-    <defs></defs>
+    <defs>import React from "react";
+const root = ReactDOM.createRoot(document.getElementById("root"));
+root.render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>
+);
+
+// App.js
+export default function App() {
+  return (
+    <div>
+      <Navbar />
+      <Hero />
+      <Features />
+      <Footer />
+    </div>
+  );
+}
+
+// Navbar.js
+function Navbar() {
+  return (
+    <nav>
+      <h1>React Landing</h1>
+    </nav>
+  );
+}
+
+// Hero.js
+function Hero() {
+  return (
+    <header>
+      <h2>Welcome to React Landing Page</h2>
+    </header>
+  );
+}
+
+// Features.js
+function Features() {
+  return (
+    <section>
+      <h3>Features</h3>
+      <div>
+        <img src="https://imgur.com/H2L3ohY.png" alt="Feature 1" />
+        <img src="https://imgur.com/IHW1mFB.png" alt="Feature 2" />
+        <img src="https://imgur.com/LtUDB9y.png" alt="Feature 3" />
+        <img src="https://imgur.com/agN6R4Y.png" alt="Feature 4" />
+      </div>
+    </section>
+  );
+}
+
+// Footer.js
+function Footer() {
+  return (
+    <footer>
+      <p>&copy; 2025 React Landing Page</p>
+    </footer>
+  );
+}
+</defs>
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" fill-opacity="0.0872678895">
         <g id="Desktop-Copy" transform="translate(-549.000000, -37.000000)" fill="#131723" fill-rule="nonzero">
             <g id="react-copy-5" transform="translate(549.000000, 37.000000)">
