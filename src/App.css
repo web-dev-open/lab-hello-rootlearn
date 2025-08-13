@@ -1,0 +1,136 @@
+.nav {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  background: #fff;
+  border-bottom: 1px solid var(--border);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.75rem 1rem;
+}
+.nav__brand {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.nav__logo {
+  width: 34px;
+  height: 34px;
+}
+.nav__title {
+  font-weight: 700;
+  letter-spacing: 0.3px;
+}
+.nav__links {
+  display: flex;
+  gap: 1rem;
+}
+.nav__links a {
+  opacity: 0.9;
+}
+.nav__links a:hover {
+  opacity: 1;
+}
+
+/* HERO */
+.hero {
+  display: grid;
+  grid-template-columns: 1.1fr 0.9fr;
+  align-items: center;
+  gap: 2rem;
+  padding: 3rem 0 2rem;
+}
+.hero__copy h1 {
+  font-size: clamp(2rem, 4vw + 1rem, 3.5rem);
+  margin: 0 0 0.75rem;
+}
+.hero__copy p {
+  color: var(--muted);
+  margin: 0 0 1.25rem;
+  line-height: 1.6;
+}
+.btn {
+  display: inline-block;
+  padding: 0.75rem 1.25rem;
+  border-radius: 999px;
+  background: var(--ink);
+  color: #fff;
+  font-weight: 600;
+}
+.btn:hover {
+  filter: brightness(0.95);
+}
+.hero__art {
+  justify-self: center;
+}
+.hero__react {
+  width: min(380px, 80%);
+  animation: spin 18s linear infinite;
+  opacity: 0.9;
+}
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* FEATURES */
+.features {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1.25rem;
+  padding: 2.5rem 0 3rem;
+}
+.card {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 1rem;
+  padding: 1.25rem;
+}
+.card__icon {
+  width: 64px;
+  height: 64px;
+  margin-bottom: 0.75rem;
+}
+.card h3 {
+  margin: 0 0 0.25rem;
+  font-size: 1.1rem;
+}
+.card p {
+  margin: 0 0 0.75rem;
+  color: var(--muted);
+  line-height: 1.6;
+}
+.card__link {
+  font-weight: 600;
+}
+
+/* FOOTER */
+.footer {
+  border-top: 1px solid var(--border);
+  padding: 1rem;
+  text-align: center;
+  color: var(--muted);
+}
+
+/* RESPONSIVE */
+@media (max-width: 900px) {
+  .hero {
+    grid-template-columns: 1fr;
+  }
+  .hero__art {
+    order: -1;
+  }
+  .features {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 520px) {
+  .features {
+    grid-template-columns: 1fr;
+  }
+}
