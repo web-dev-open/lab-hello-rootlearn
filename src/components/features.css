@@ -1,0 +1,25 @@
+.main {
+  display: flex;
+  gap: 30px;
+  margin: 80px auto;
+}
+
+.feature-div {
+  text-align: left;
+  margin: 0 auto;
+}
+
+.feature-img {
+  width: 120px;
+}
+
+h4 {
+  font-size: 22px;
+  margin-left: 12px;
+  letter-spacing: 2px;
+}
+
+p {
+  width: 150px;
+  margin-left: 12px;
+}
